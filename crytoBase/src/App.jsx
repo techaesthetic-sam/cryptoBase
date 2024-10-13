@@ -1,10 +1,13 @@
 function App() {
   return (
     <>
-      <h1 className="text-5xl font-bold">Hello world!</h1>
-      <button class="bg-sky-700 px-4 py-2 text-white hover:bg-red-800 sm:px-8 sm:py-3 h-40 w-40">
-        ...
-      </button>
+      <h3 className="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">
+        Writes Upside-Down
+      </h3>
+      <p className="text-slate-500 dark:text-slate-400 mt-2 text-lg">
+        The Zero Gravity Pen can be used to write in any orientation, including
+        upside-down. It even works in outer space.
+      </p>
     </>
   );
 }
